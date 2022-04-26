@@ -5,39 +5,57 @@
     text-decoration: none;
     font-family: 'Josefin Sans', sans-serif;
   }
+
+  .column {
+    width: 100%;
+  }
+  
+  @media (min-width: 600px) {
+    .column {
+      width: 50%;
+    }
+  }
+
+
   .webpage{
     display: flex;
     position: relative;
   }
   
   .webpage .listtonav {
-    position: fixed;
+    position: absolute;
     width: 20%;
-    height: 100%;
+    height: 1100px;
     padding: 5% ;
     background-color: chocolate;
   }
 
   .webpage .listtonav .extra {
     color:black;
-    margin-top: 120%;
-    margin-left: 60%;
-  }   
+    margin-top: 160%;
+    margin-left: 20%;
+  }  
+  
+  .webpage .listtonav .languages {
+    color:black;
+    margin-top: 50%;
+    margin-left: 20%;
+  }  
 
-  .webpage .listtonav .extra h3{
+  .webpage .listtonav h3{
     text-transform: uppercase;
   }
 
 
-  .webpage .listtonav .extra li {
+  .webpage .listtonav li {
     color:black;
   }
   
   .webpage .maincontent  {
     position: absolute;
     margin-left: 20%;
-    height: 100%; 
     width: 100%;
+    height: 1100px;
     padding: 5% ;
     padding-right: 30%;
     background-color:whitesmoke;
@@ -64,11 +82,11 @@
     
   .webpage .listtonav .image{
     top: 5%;
-    left: 5%;
-    position:fixed;
+    left: 25%;
+    position:absolute;
   }
   .webpage .listtonav .image .smaller-image {
-      width:60%;
+      width:80%;
       border-color: whitesmoke;
       border-width: 5%;
       border-style: solid;
