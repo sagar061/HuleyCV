@@ -6,17 +6,6 @@
     font-family: 'Josefin Sans', sans-serif;
   }
 
-  .column {
-    width: 100%;
-  }
-  
-  @media (min-width: 600px) {
-    .column {
-      width: 50%;
-    }
-  }
-
-
   .webpage{
     display: flex;
     position: relative;
@@ -28,6 +17,25 @@
     height: 1100px;
     padding: 5% ;
     background-color: chocolate;
+  }
+
+  @media (max-width: 600px) {
+
+    .webpage .listtonav .image{
+      top: 5%;
+      left: 25%;
+      position:absolute;
+    }
+
+    .webpage .maincontent {
+      top: 30%;
+      width: 100%;
+    }
+
+    .webpage .listtonav {
+      top: 90%;
+      width: 100%;
+    }
   }
 
   .webpage .listtonav .extra {
