@@ -13,18 +13,29 @@
 
 .webpage .listtonav {
   padding-left: 5%;
-  padding-top: 5%;
+  padding-top: 2%;
+}
+
+.webpage .listtonav .image{
+  margin-left: 2%;
+  margin-top: 2%;
+}
+.webpage .listtonav .image .smaller-image {
+    width:80%;
+    border-color: whitesmoke;
+    border-width: 5%;
+    border-style: solid;
+    border-radius: 80%;  
 }
 
 .webpage .listtonav .extra {
   color:black;
-  margin-top: 20%;
+  margin-top: 10%;
 
 }  
 
 .webpage .listtonav .languages {
   color:black;
-  margin-top: 20%;
 }  
 
 .webpage .listtonav h6{
@@ -59,16 +70,4 @@
 
 .webpage .maincontent ol, ul {
  padding-left: 5%;
-}
-  
-.webpage .listtonav .image{
-  margin-left: 5%;
-  margin-top: 5%;
-}
-.webpage .listtonav .image .smaller-image {
-    width:80%;
-    border-color: whitesmoke;
-    border-width: 5%;
-    border-style: solid;
-    border-radius: 80%;  
 }
