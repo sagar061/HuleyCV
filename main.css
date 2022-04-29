@@ -40,6 +40,7 @@
 
 .webpage .listtonav h6{
   text-transform: uppercase;
+  border: 2px solid cadetblue;
 }
 
 
@@ -55,7 +56,7 @@
 
 .webpage .maincontent h2 {
   font-family: Verdana;
-  color: cadetblue;
+  color: black;
 }
 
 .webpage .maincontent .intro {
